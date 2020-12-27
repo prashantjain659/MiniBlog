@@ -6,7 +6,7 @@
     if (string.IsNullOrEmpty(Blog.CurrentSlug))
     {
         Page.Title = Blog.Title;
-        Page.Description = Blog.Description;
+        Page.Description = Blog.Description + " Demo Edureka Deployment";
         Page.ShowPaging = true;
         
         var posts = Blog.GetPosts(Blog.PostsPerPage);
